@@ -21,12 +21,12 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-        working-directory: app/node-express-hello-world
+        
 
 
       - name: Run tests
         run: npm test
-        working-directory: app/node-express-hello-world
+        
 
 
       - name: Set up Docker Buildx
